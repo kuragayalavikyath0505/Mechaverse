@@ -1,2 +1,93 @@
 # Mechsverse
-A website that provides circuit diagrams and codes for electronics and robotics projects.
+A website that provides circuit diagrams and codes for electronics and robotics projects
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,#ff6ec4,#7873f5,#42e695);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h2{
+    color:#7873f5;
+    margin-bottom:20px;
+}
+
+input{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+input:focus{
+    border-color:#7873f5;
+    outline:none;
+}
+
+button{
+    width:95%;
+    padding:12px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    background: linear-gradient(90deg,#ff6ec4,#7873f5);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background: linear-gradient(90deg,#42e695,#3bb2b8);
+}
+
+p{
+    margin-top:15px;
+}
+
+a{
+    color:#ff6ec4;
+    text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+<h2>Access Project Portal</h2>
+
+<form>
+<input type="text" placeholder="Username" required>
+<input type="password" placeholder="Password" required>
+
+<button type="submit">Login</button>
+</form>
+
+<p>New User? <a href="#">Create Account</a></p>
+
+</div>
+
+</body>
+</html>
